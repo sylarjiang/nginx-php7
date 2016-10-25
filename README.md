@@ -5,7 +5,7 @@ nginx: **1.11.5**
 php:   **7.0.12**
 
 ## Docker Hub   
-**Nginx-PHP7:** [https://hub.docker.com/r/skiychan/nginx-php7](https://hub.docker.com/r/skiychan/nginx-php7)   
+**Nginx-PHP7:** []()   
    
 ## Installation
 Pull the image from the docker index rather than downloading the git repo. This prevents you having to build the image on every docker host.
@@ -69,14 +69,14 @@ Add ```mongodb.ini``` to folder ```extini```:
 extension=mongodb.so
 ```
 
-You can see the **[wiki](https://github.com/skiy-dockerfile/nginx-php7/wiki/Question-&-Answer)**
+You can see the **[wiki]()**
 
 ## [ChangeLog](changelogs.md)
 
 ## Thanks
-[Legion](https://www.dwhd.org)  
+[Legion]()  
 
 ## Author
-Author: Skiychan    
-Email:  dev@skiy.net       
-Link:   https://www.skiy.net
+Author: sylar    
+Email:  5246396@      qq.com
+Link:   

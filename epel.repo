@@ -1,6 +1,0 @@
-[epel]
-name=CentOS-$releasever - Base
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os&infra=$infra
-baseurl=http://mirrors.aliyun.com/epel/7Server/x86_64/
-gpgcheck=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6

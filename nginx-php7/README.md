@@ -7,7 +7,7 @@ php:   **7.0.12**
 ## Volumes
 If you want to link to your web site directory on the docker host to the container run:
 ```sh
-docker run --name nginx -p 8080:80 -v /your_code_directory:/data/www -d skiychan/nginx-php7
+docker run --name web-code -p 8080:80 -v /your_code_directory:/data/www -d nginx-php7_container-name
 ```
 
 ## Enabling SSL

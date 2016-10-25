@@ -4,27 +4,6 @@ Nginx and PHP for Docker
 nginx: **1.11.5**   
 php:   **7.0.12**
 
-## Docker Hub   
-**Nginx-PHP7:** []()   
-   
-## Installation
-Pull the image from the docker index rather than downloading the git repo. This prevents you having to build the image on every docker host.
-```sh
-docker pull skiychan/nginx-php7:latest
-```
-
-To pull the Nightly Version:   
-```
-docker pull skiychan/nginx-php7:nightly
-```
-
-## Running
-To simply run the container:
-```sh
-docker run --name nginx -p 8080:80 -d skiychan/nginx-php7
-```
-You can then browse to http://\<docker_host\>:8080 to view the default install files.
-
 ## Volumes
 If you want to link to your web site directory on the docker host to the container run:
 ```sh
